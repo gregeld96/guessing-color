@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A color game guessing for enhance knowldege about color and color combination 
+    for designer and also help those people with color blind partial people to know the rgb combination ratio">
+    <meta name="author" content="Gregorius Eldwin Pradipta">
+    <link rel="stylesheet" href="index.css">
+    <title>Color Picker Game</title>
+</head>
+<body>
+    <h1 id="header">Guessing Color Game<br><span id="colorInfo">RGBA</span><br>Are you a good designer ?</h1>
+
+    <div class="menuList">
+        <button id="reset" onclick="reset()">New Color</button>
+        <span id="messageInfo"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
+    </div>
+
+    <div class="container">
+        <div class="infoBox">
+            <div id=colorDetail></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <a href="https://www.linkedin.com/in/gregorius-eldwin-pradipta/" target="_blank">&copy; <span id ="year"></a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
