@@ -12,12 +12,14 @@ h1 {
     padding: 15px;
     text-transform: uppercase;
     font-weight: normal;
+    font-size: 24px;
 }
 
 #colorInfo {
     font-weight: 700;
-    font-size: 200%;
+    font-size: 150%;
 }
+
 .menuList {
     text-align: center;
     margin: 0 auto;
@@ -26,8 +28,9 @@ h1 {
 }
 
 #messageInfo{
-    width: 250px;
+    width: 160px;
     display: inline-block;
+    font-size: 11px;
 }
 
 button {
@@ -38,7 +41,7 @@ button {
     height: 100%;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: inherit;
+    font-size: 12px;
 }
 
 button:hover {
@@ -47,8 +50,8 @@ button:hover {
 }
 
 .container {
-    margin: 20px auto;
-    width: 600px;
+    margin: 10px auto;
+    width: 300px;
 }
 
 .square {
@@ -65,8 +68,8 @@ button:hover {
     background: white;
     padding-bottom: 5px ;
     text-align: center;
-    font-size: 32px;
-    height: 36px;
+    font-size: 24px;
+    height: 24px;
 }
 
 .selected {
@@ -80,13 +83,7 @@ footer {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
-    margin-top: 32%;
-  }
-
-@media only screen and (max-width: 1029px){
-    footer {
-        margin-top: 50%;
-      }
+    margin-top: 60%;
 }
 
 footer .copyright {
@@ -96,4 +93,108 @@ footer .copyright {
 a {
     color: white;
     text-decoration-style: none;
+}
+
+@media only screen and (min-width: 768px){
+    h1 {
+        font-size: 36px;
+    }
+
+    #messageInfo{
+        width: 360px;
+        font-size: 22px;
+    }
+    
+    button {
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 10px auto;
+        width: 600px;
+    }
+    
+    .infoBox {
+        font-size: 32px;
+        height: 36px;
+    }
+
+    footer {
+        margin-top: 58%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    h1 {
+        font-size: normal;
+    }
+
+    #colorInfo {
+        font-weight: 700;
+        font-size: 200%;
+    }
+
+    .menuList {
+        height: 50px;
+    }
+
+    #messageInfo{
+        width: 400px;
+        font-size: 26px;
+    }
+
+    button {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 800px;
+    }
+
+    .infoBox {
+        font-size: 46px;
+        height: 52px;
+    }
+
+    footer {
+        font-size: 24px;
+        margin-top: 61%;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    h1 {
+        font-size: normal;
+    }
+
+    #colorInfo {
+        font-weight: 700;
+        font-size: 200%;
+    }
+
+    .menuList {
+        height: 60px;
+    }
+
+    #messageInfo{
+        width: 400px;
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .infoBox {
+        font-size: 28px;
+        height: 32px;
+    }
+
+    footer {
+        margin-top: 32%;
+    }
 }
