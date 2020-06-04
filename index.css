@@ -135,25 +135,25 @@ a {
     }
 
     .menuList {
-        height: 50px;
+        height: 60px;
     }
 
     #messageInfo{
         width: 400px;
-        font-size: 26px;
+        font-size: 24px;
     }
 
     button {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .container {
-        width: 800px;
+        width: 600px;
     }
 
     .infoBox {
-        font-size: 46px;
-        height: 52px;
+        font-size: 28px;
+        height: 32px;
     }
 
     footer {
